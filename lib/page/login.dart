@@ -1,3 +1,4 @@
+import 'package:absenn/page/home.dart';
 import 'package:absenn/page/register.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -107,9 +108,9 @@ class _LoginPageState extends State<LoginPage> {
                     color: Color.fromRGBO(34, 87, 126, 1),
                     textColor: Colors.white,
                     onPressed: () {
-                      // Navigator.of(context).push(MaterialPageRoute(
-                      //     builder: (context) => HomePage(),
-                      //     ));
+                      Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => HomePage(),
+                      ));
                     },
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12.0),
