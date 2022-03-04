@@ -128,6 +128,7 @@ class _LoginPageState extends State<LoginPage> {
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
                       color: Colors.black,
+                      fontFamily: 'Poppins',
                     ),
                     children: [
                       TextSpan(
@@ -143,6 +144,7 @@ class _LoginPageState extends State<LoginPage> {
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.blue,
+                          fontFamily: 'Poppins',
                         ),
                       ),
                     ],
