@@ -1,4 +1,5 @@
 import 'package:absenn/page/login.dart';
+import 'package:absenn/page/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'Poppins',
           scaffoldBackgroundColor: Colors.white,
           canvasColor: Colors.transparent),
-      home: LoginPage(),
+      home: SplashScreen(),
     );
   }
 }
